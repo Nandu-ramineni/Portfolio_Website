@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="me.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Nandu | portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="Home.html" class="logo"><i class="fa fa-thin fa-code"></i> Nandu</a>
+        <nav class="navbar">
+            <a href="Home.html">Home</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#Testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="hire">
+            <h3 class="btn" id="hire-btn">Hire me</h3>
+        </div>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-regular fa-bars-staggered"></div>
+        </div>
+    </header>
+    <section class="home">
+        <div class="boxcontainer">
+            <div class="banner">
+                <div class="content">
+                    <h5>Hy! It's Me</h5>
+                    <h3>Nandu Varma Ramineni</h3>
+                    <span class="text">Graphic Designer | Front-end Dev</span>
+                    <p>I am a passionate front-end developer with a keen eye for detail and a strong desire to create engaging user experiences.</p>
+                    <a href="resume.png" download class="btn">download cv</a>
+                    <div class="icons">
+                        <a href="https://shorturl.at/bQSV5"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Nandu-ramineni"><i class="fab fa-github"></i></a>
+                        <a href="https://instagram.com/nanduvarma__?igshid=MjEwN2IyYWYwYw=="><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="home-image1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="experience">
+        <div class="box-container">
+            <div class="box">
+                <div class="content">
+                    <h3>My Awesome</h3>
+                    <h4>Services</h4>
+                    <p>As a frontend developer, I possess a deep passion for creating captivating and user-friendly web experiences. With a strong foundation in HTML, CSS, and JavaScript, I strive to transform design concepts into seamless, interactive websites that engage and delight users.</p>
+                    <a href="#" class="btn">Hire me</a>
+                </div>
+                <div class="text-box">
+                    <div class="box1">
+                        <img src="service-image1.png" alt="">
+                        <h3>Developer</h3>
+                        <p>Html,CSS,Javascript, <br> React,Sql,Mongodb,Firebase</p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                    <div class="box2">
+                        <img src="service-image.png" alt="">
+                        <h3>Graphic Designer</h3>
+                        <p>Photoshop,AE<br>PremierePro,Illustrator,Finalcut</p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <div class="banner">
+            <img src="project-banner.png" alt="">
+        </div>
+        <div id="next-slide" class="fas fa-light fa-circle-chevron-right" onclick="next()"></div>
+        <div id="prev-slide" class="fas fa-light fa-circle-chevron-left" onclick="prev()"></div>
+        <div class="slides-container">
+            <div class="slide active">
+                <div class="content">
+                <span>Restaurent Website</span>
+                <h3>Html,CSS,Js</h3>
+                <p>"The restaurant website is an engaging and visually appealing platform developed using HTML, CSS, and JavaScript. The website's home page features a captivating banner image, showcasing the restaurant's inviting ambiance and delicious cuisine."</p>
+                <a href="https://nandu-ramineni.github.io/Dineinn/Restaurent.html" class="btn">Read more</a>
+                </div>
+                <div class="image">
+                <img src="project-image2.jpeg" alt="img">
+                </div>
+            </div>
+            <div class="slide ">
+                <div class="content">
+                <span>Online Grocery Store</span>
+                <h3>Html,CSS,Js</h3>
+                <p>The grocery store website, developed using HTML, CSS, and JavaScript, is a visually appealing and user-friendly platform designed to enhance the shopping experience for customers.</p>
+                <a href="https://nandu-ramineni.github.io/Dineinn/Restaurent.html" class="btn">Read more</a>
+                </div>
+                <div class="image">
+                <img src="project-image3.jpeg" alt="img">
+            </div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="testimonials" id="Testimonials">
+        <div class="heading">
+            <h3>My Client Says</h3>
+        </div>
+        <div class="box-conatiner">
+            <div class="box">
+                <div class="image">
+                    <img src="client-1.jpg" alt="img">
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A eum magnam nobis ipsum minima id accusamus ut? Necessitatibus, laudantium dignissimos.</p>
+                    <h3>Premsai</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="client-2.jpg" alt="img">
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A eum magnam nobis ipsum minima id accusamus ut? Necessitatibus, laudantium dignissimos.</p>
+                    <h3>Sreeja</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="client-3.jpg" alt="img">
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A eum magnam nobis ipsum minima id accusamus ut? Necessitatibus, laudantium dignissimos.</p>
+                    <h3>jacqleen</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h3>Contact Me</h3>
+        <div class="icons-container">
+            <div class="icons">
+                <a href="tel: 9063730699" target="_blank"><i class="fas fa-phone"></i></a>
+                <h3>Our Number</h3>
+                <p>+91 9063730699</p>
+                <p>+91 111-555-9999</p>
+            </div>
+            <div class="icons">
+                <a href="mailto: nanduramineni2233@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                <h3>Our email</h3>
+                <p>nanduramineni2233@gmail.com</p>
+                <p>nandurameneni5577@gmail.com</p>
+            </div>
+            <div class="icons">
+                <a href="https://goo.gl/maps/p1Nipi7PEmJuBsvL9" target="_blank"><i class="fas fa-map-marker-alt"></i></a>
+                <h3>Our Address</h3>
+                <p>Hyderabad, Telangana</p>
+                <p>India 508207</p>
+            </div>
+        </div>
+        <div class="row">
+            <form action="">
+                <h3>Get in touch</h3>
+                <div class="input-box">
+                <input type="text" placeholder="Enter you name" class="box">
+                <input type="email" placeholder="Enter you email" class="box">
+                </div>
+                <div class="input-box">
+                <input type="number" placeholder="Enter you number" class="box">
+                <input type="text" placeholder="Enter you subject" class="box">
+                </div>
+                <textarea  placeholder="type your message" cols="30" rows="10"></textarea>
+                <input type="submit" value="Send message" class="btn">
+            </form>
+            
+        </div>
+    </section>
+    <footer>
+        <div class="credits">
+            <h3>Developed by Nandu Varma</h3>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
